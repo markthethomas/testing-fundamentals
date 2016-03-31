@@ -1,0 +1,19 @@
+{
+  "name": "testing-fundamentals",
+  "version": "0.0.1",
+  "description": "Intro to testing",
+  "main": "main.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markthethomas/testing-fundamentals.git"
+  },
+  "author": "Mark Thomas <markthethomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markthethomas/testing-fundamentals/issues"
+  },
+  "homepage": "https://github.com/markthethomas/testing-fundamentals#readme"
+}
