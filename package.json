@@ -4,6 +4,9 @@
   "description": "Intro to testing",
   "main": "main.js",
   "scripts": {
+    "1": "ava -v ./steps/1/*.spec.js",
+    "2": "ava -v ./steps/2/*.spec.js",
+    "3": "ava -v ./steps/3/*.spec.js",
     "test": "ava -v"
   },
   "repository": {
@@ -15,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/markthethomas/testing-fundamentals/issues"
   },
-  "homepage": "https://github.com/markthethomas/testing-fundamentals#readme"
+  "homepage": "https://github.com/markthethomas/testing-fundamentals#readme",
+  "dependencies": {
+    "ava": "^0.13.0",
+    "enzyme": "^2.2.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "sinon": "^1.17.3",
+    "workshopper": "^2.7.0",
+    "workshopper-boilerplate": "^1.1.2",
+    "workshopper-exercise": "^2.6.1",
+    "workshopper-wrappedexec": "^0.1.2"
+  }
 }
